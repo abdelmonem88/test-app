@@ -1,5 +1,9 @@
-import Image from "next/image";
+import LocationSearch from "@/components/location-seaarch";
 
 export default function Home() {
-  return <h1 className="text-center mt-10 text-5xl">Test App</h1>;
+  return (
+    <div className="mt-10">
+      <LocationSearch />
+    </div>
+  );
 }
